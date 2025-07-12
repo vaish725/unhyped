@@ -1,0 +1,52 @@
+{
+  "product_name": "CeraVe Hydrating Cleanser",
+  "brand": "CeraVe",
+  "price": 12.99,
+  "rating": 4.5,
+  "reviews_summary": "No reviews found",
+  "safe_ingredients": [
+    "water",
+    "glycerin",
+    "niacinamide",
+    "hyaluronic acid",
+    "ceramides\n\ngreat product for sensitive skin!\n\nlove how hydrating this cleanser is"
+  ],
+  "flagged_ingredients": [
+    {
+      "name": "sodium laureth sulfate",
+      "issue": "Mild irritant",
+      "severity": "medium",
+      "recommendation": "Consider avoiding due to mild irritant"
+    },
+    {
+      "name": "fragrance",
+      "issue": "Irritant",
+      "severity": "high",
+      "recommendation": "High risk for sensitive skin reactions"
+    },
+    {
+      "name": "coconut oil",
+      "issue": "Comedogenic",
+      "severity": "low",
+      "recommendation": "May trigger acne breakouts"
+    },
+    {
+      "name": "dimethicone",
+      "issue": "Silicone buildup",
+      "severity": "low",
+      "recommendation": "Consider avoiding due to silicone buildup"
+    }
+  ],
+  "match_score": 25,
+  "trust_score": 70,
+  "paid_promotions_detected": true,
+  "analysis_summary": {
+    "total_ingredients": 9,
+    "flagged_count": 4,
+    "user_skin_type": "sensitive",
+    "user_concerns": [
+      "acne",
+      "sensitivity"
+    ]
+  }
+}

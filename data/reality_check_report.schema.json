@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "product_name": { "type": "string" },
+    "brand": { "type": "string" },
+    "price": { "type": "number" },
+    "rating": { "type": "number" },
+    "safe_ingredients": { "type": "array", "items": { "type": "string" } },
+    "flagged_ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "issue": { "type": "string" },
+          "severity": { "type": "string" }
+        },
+        "required": ["name", "issue", "severity"]
+      }
+    },
+    "match_score": { "type": "number" },
+    "trust_score": { "type": "number" },
+    "paid_promotions_detected": { "type": "boolean" }
+  },
+  "required": ["product_name", "brand", "price", "safe_ingredients", "flagged_ingredients", "match_score", "trust_score"]
+}
